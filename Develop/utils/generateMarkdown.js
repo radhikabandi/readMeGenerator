@@ -49,6 +49,8 @@ function renderContributingSection(confirmContributers, data) {
     `;
   }
 }
+
+
 // function to generate markdown for README
 function generateMarkdown(data) {
   console.log('cmin ginsede',data)
@@ -61,6 +63,7 @@ function generateMarkdown(data) {
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
+  ${renderLicenseBadge(data.license)}
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
@@ -76,13 +79,12 @@ function generateMarkdown(data) {
   ## [Usage](#table-of-contents)
   ${data.usage}
   
-
   ${renderLicenseSection(data.license)}
   ## [Contributing](#table-of-contents)
 
   ${renderContributingSection(data.confirmContributers, data.contribute)}
 
-  
+
     ## [Tests](#table-of-contents)
   ${data.test}
   

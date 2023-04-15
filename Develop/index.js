@@ -71,19 +71,6 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'how',
-    message: 'How will someone use this? (Required)',
-    validate: howInput => {
-      if (howInput) {
-        return true;
-      } else {
-        console.log('Please enter what your project is!');
-        return false;
-      }
-    }
-  },
-  {
-    type: 'input',
     name: 'installation',
     message: 'Please provide step-by-step installation instructions for your project. (Required)',
     validate: installInput => {
