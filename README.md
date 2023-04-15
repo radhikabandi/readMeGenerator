@@ -23,7 +23,8 @@ After installation is complete, run the following code: ‘node index.js’ in t
 ## [Contributing](#table-of-contents)
 
 
-Thank you for your interest ; however, I will not be accepting contributions from others on this project.
+Thank you for your interest.
+however, I will not be accepting contributions from others on this project.
 
 ## [Tests](#table-of-contents)
 To test this app, open up the file in VS Code. Open the terminal, change directory into the root folder and run `node index.js`,Answer the prompts and view the preview of the ‘generate-README.md’ file
