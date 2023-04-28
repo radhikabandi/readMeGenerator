@@ -15,7 +15,8 @@ This README generator will allow the user to answer a series of specific questio
 ## [Installation](#table-of-contents)
 Click the repository link below. Download the zip file and copy it to a directory of your choice or clone to a directory of your choice using your terminal. Open the file in VS Code or whatever editor you work with. Open the terminal in VS Code and make sure you’re in the root directory,You’ll now be ready to run the app!
 
-Tutorial on how to use app 
+Tutorial on how to use app -https://drive.google.com/file/d/1csgRTwNhCraFY8DOPaQS_i7DFj6LIzjD/view
+
 
 ## [Usage](#table-of-contents)
 After installation is complete, run the following code: ‘node index.js’ in the terminal. Answer the prompts and after completion, you should see a console log showing your answers to your prompts, a message that says ‘File created!’, and you should see your filegenerate-ReadMe.md
